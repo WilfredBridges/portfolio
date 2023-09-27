@@ -5,21 +5,21 @@ const NavigationSocials = () => {
   return (
     <section className="social-media">
       <a
-        href="https://www.linkedin.com/in/catherinemitagvaria/"
+        href="https://www.linkedin.com/in/wilfred-bridges-8301a598/"
         target="_blank"
         rel="noreferrer"
       >
         <img src={Linkedin} alt="linkedin" />
       </a>
       <a
-        href="https://github.com/catherineisonline"
+        href="https://github.com/WilfredBridges"
         target="_blank"
         rel="noreferrer"
       >
         <img src={Github} alt="github" />
       </a>
       <a
-        href="https://codepen.io/catherineisonline"
+        href="me"
         target="_blank"
         rel="noreferrer"
       >

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;900&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Gothic+A1:wght@500;700&family=Work+Sans:wght@400;500;800&display=swap')
 //Breakpoints
 $sm-width: 576px
 $md-width: 768px
@@ -11,9 +12,10 @@ $xxl-with: 1400px
 $title-font: 'Barlow', sans-serif
 $body-font: 'Inter', sans-serif
 $codingfont: 'La Belle Aurore', cursive
+$namefont: 'Dancing Script', cursive
 //Colors
 $black-bg: #1d1d1d
-$pinkish: #fd1056
+$pinkish: #ff9900
 $white: #fff
 $gray: #8d8d8d
 $darkgray: #2b2b2b
@@ -55,15 +57,24 @@ p
 //BASICS
 .title-font
     font-family: $title-font
-    font-weight: 500
+    font-weight: 300
 .header-font
     font-family: $title-font
+    font-size: .75em
 .white-text
     color: $white
 .pink-text
     color: $pinkish
 .gray-text
     color: $gray
+.name-font 
+    font-family: $namefont
+    font-size: 1.5em
+em
+  font-style: italic
+span.name-font
+    font-family: $namefont
+    font-style: normal
 
 // TAG STYLING
 .h1-tag:before
